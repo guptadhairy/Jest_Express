@@ -1,6 +1,6 @@
 import { app } from ".";
 import request from "supertest";
-import {describe, it, expect, test} from '@jest/globals';
+import {describe, it, expect} from 'vitest';
 
 describe("Post/sum", ()=> {
     it("should return the sum of two numbers", async()=> {
